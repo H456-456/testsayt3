@@ -10,7 +10,7 @@ universitySearchButton.addEventListener('click',function() {
 
 	request.open(
 		'GET',
-		`http://universities.hipolabs.com/search?country=${enteringTheCountryName.value}`
+		`https://universities.hipolabs.com/search?country=${enteringTheCountryName.value}`
 	)
 	request.responseType ="json"
 	request.onload
