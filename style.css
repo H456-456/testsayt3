@@ -1,0 +1,11 @@
+#table1{
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+#table1 td, #table1 th{
+  padding: 5px;
+  border: 1px solid #000;
+}
+#table1 th{
+  background-color: #ffb773;
+}

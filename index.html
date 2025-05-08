@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>задания</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<a href="../index.html"><button class="buttonOut">назад</button></a><br>
+<a href="https://docs.google.com/document/d/1hQCFWu5xELBY0Kt6-5rEo2r9o7CdLG8W5V2n-Nk9qQc/edit?usp=sharing">Работа с браузером. Объекты BOM и DOM</a><br>
+Задание<br>
+Сделать страницу “Список университетов Украины”<br>
+1) Сделать верстку страницы<br>
+2) Реализовать скрипт получения из АПИ список университетов <br>
+Запрос: GET http://universities.hipolabs.com/search?country=Ukraine<br>
+<br>
+3)Вставить в  таблицу следующие данные из АПИ: name, country, web_pages<br>
+4)закрашивать серым нечетную строку таблицы <br>
+<br>
+<label for="enteringTheCountryName">введите название страны на английском (Germany,Poland,Ukraine,China)</label>
+<input type="text" id="enteringTheCountryName" value="Ukraine">
+<button id="universitySearchButton">просмотреть университеты страны</button>
+<br>
+  <table id="table1">
+      <tr>
+        <th>name</th>
+        <th>country</th>
+        <th>web_pages</th>
+      </tr>
+  </table>
+<script src="script.js" defer></script>
+</body>
+</html>
